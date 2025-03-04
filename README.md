@@ -3,6 +3,37 @@
 ## Overview
 This project analyzes sales data to identify key trends in revenue, product categories, and order status distribution. The dataset includes transaction details such as SKU, category, revenue, order status, and date of purchase. The analysis aims to provide insights into product performance and seasonal trends.
 
+## Getting the Data  
+This project uses the **"Unlock Profits with E-Commerce Sales Data"** dataset from Kaggle. Since the files are too large to upload to GitHub, follow these steps to download and extract them:
+
+1. **Download the dataset manually:**  
+   - Visit [this Kaggle dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data).  
+   - Click **Download** to get the ZIP file.  
+
+2. **Move the ZIP file to your project directory.**  
+   - Ensure the file is named **`unlock-profits-with-e-commerce-sales-data.zip`** for consistency.  
+
+3. **Extract the ZIP file into the `csvs` folder:**  
+   Run the following Python script to extract the files:  
+
+   ```python
+   import zipfile
+   import os
+
+   zip_path = "unlock-profits-with-e-commerce-sales-data.zip"
+   extract_folder = "csvs"
+
+   os.makedirs(extract_folder, exist_ok=True)
+
+   with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+       zip_ref.extractall(extract_folder)
+
+   print(f"Extracted files to {extract_folder}")
+   ```
+
+4. **Verify the extracted CSV files**  
+   The dataset should now be available in the `csvs` folder, ready for analysis.  
+
 ## Data Cleaning and Processing
 - **Standardized SKU names**: Ensured consistency across different datasets.
 - **Handled missing values**: Removed or filled missing values where necessary.
