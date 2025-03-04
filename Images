@@ -1,0 +1,5 @@
+<script>start("/Users/kaylabiddle/Desktop/biddlebird/Freelance Portfolio/AmazonSalesAnalysis/Images/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("MonthlySalesOverTime.png","MonthlySalesOverTime.png",0,25495,"24.9 kB",1741061029,"3/3/25, 8:03:49 PM");</script>
+<script>addRow("OrderDistributionStatus.png","OrderDistributionStatus.png",0,26503,"25.9 kB",1741061007,"3/3/25, 8:03:27 PM");</script>
+<script>addRow("SalesByCategory.png","SalesByCategory.png",0,23838,"23.3 kB",1741060889,"3/3/25, 8:01:29 PM");</script>
