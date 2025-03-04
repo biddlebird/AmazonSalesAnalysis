@@ -1,0 +1,6 @@
+<script>start("/Users/kaylabiddle/Desktop/biddlebird/Freelance Portfolio/AmazonSalesAnalysis/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("csvs","csvs",1,320,"320 B",1740988496,"3/2/25, 11:54:56 PM");</script>
+<script>addRow("Analysis.ipynb","Analysis.ipynb",0,117452,"115 kB",1741058753,"3/3/25, 7:25:53 PM");</script>
+<script>addRow("merged_sales_data.csv","merged_sales_data.csv",0,78706004,"75.1 MB",1741057838,"3/3/25, 7:10:38 PM");</script>
+<script>addRow("README.md","README.md",0,3172,"3.1 kB",1741058753,"3/3/25, 7:25:53 PM");</script>
